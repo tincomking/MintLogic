@@ -5,8 +5,8 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     nav: { solutions: 'Solutions', technology: 'Technology', team: 'Team', contact: 'Contact' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
-      titleLine1: 'Transforming Industries with',
-      titleLine2: 'Intelligent Web3 Logic',
+      titleLine1: 'Minting Trust in',
+      titleLine2: 'Decentralized Logic',
       description: 'MintLogic empowers traditional sectors to adopt Web3 infrastructure. We provide full-stack support for stablecoin issuance and integrate vertical AI Agents into core business workflows.',
       primaryBtn: 'Explore Solutions',
       secondaryBtn: 'View Documentation'
@@ -32,8 +32,8 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     nav: { solutions: '解决方案', technology: '核心技术', team: '团队', contact: '联系我们' },
     hero: {
       badge: '香港 · MintLogic 智能合规',
-      titleLine1: '赋能传统行业',
-      titleLine2: '智启 Web3 转型',
+      titleLine1: '铸造信任',
+      titleLine2: '于去中心化逻辑',
       description: 'MintLogic 致力于协助传统行业进行 Web3 化改造。提供从稳定币发行、合规运营到跨境支付的全栈咨询，并将 AI Agent 深度嵌入垂直业务流。',
       primaryBtn: '探索解决方案',
       secondaryBtn: '查看文档'
@@ -59,8 +59,8 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     nav: { solutions: '解決方案', technology: '核心技術', team: '團隊', contact: '聯繫我們' },
     hero: {
       badge: '香港 · MintLogic 智能合規',
-      titleLine1: '賦能傳統行業',
-      titleLine2: '智啟 Web3 轉型',
+      titleLine1: '鑄造信任',
+      titleLine2: '於去中心化邏輯',
       description: 'MintLogic 致力於協助傳統行業進行 Web3 化改造。提供從穩定幣發行、合規運營到跨境支付的全棧咨詢，並將 AI Agent 深度嵌入垂直業務流。',
       primaryBtn: '探索解決方案',
       secondaryBtn: '查看文檔'
@@ -86,8 +86,8 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     nav: { solutions: 'Soluções', technology: 'Tecnologia', team: 'Equipe', contact: 'Contato' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
-      titleLine1: 'Transformando Indústrias',
-      titleLine2: 'Lógica Web3 Inteligente',
+      titleLine1: 'Cunhando Confiança',
+      titleLine2: 'Lógica Descentralizada',
       description: 'A MintLogic capacita setores tradicionais a adotar infraestrutura Web3. Oferecemos suporte completo para emissão de stablecoins e integração de Agentes de IA verticais.',
       primaryBtn: 'Explorar Soluções',
       secondaryBtn: 'Documentação'
@@ -113,8 +113,8 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     nav: { solutions: 'Lösungen', technology: 'Technologie', team: 'Team', contact: 'Kontakt' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
-      titleLine1: 'Industrietransformation',
-      titleLine2: 'Intelligente Web3-Logik',
+      titleLine1: 'Prägung von Vertrauen',
+      titleLine2: 'Dezentrale Logik',
       description: 'MintLogic befähigt traditionelle Sektoren zur Web3-Adoption. Wir bieten Full-Stack-Support für Stablecoin-Emissionen und integrieren vertikale KI-Agenten.',
       primaryBtn: 'Lösungen erkunden',
       secondaryBtn: 'Dokumentation'
@@ -140,8 +140,8 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     nav: { solutions: 'Solutions', technology: 'Technologie', team: 'Équipe', contact: 'Contact' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
-      titleLine1: 'Transformer les Industries',
-      titleLine2: 'Logique Web3 Intelligente',
+      titleLine1: 'Frapper la Confiance',
+      titleLine2: 'Logique Décentralisée',
       description: 'MintLogic permet aux secteurs traditionnels d\'adopter l\'infrastructure Web3. Support complet pour l\'émission de stablecoins et l\'intégration d\'Agents IA verticaux.',
       primaryBtn: 'Explorer Solutions',
       secondaryBtn: 'Documentation'
@@ -167,8 +167,8 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     nav: { solutions: 'Soluciones', technology: 'Tecnología', team: 'Equipo', contact: 'Contacto' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
-      titleLine1: 'Transformando Industrias',
-      titleLine2: 'Lógica Web3 Inteligente',
+      titleLine1: 'Acuñando Confianza',
+      titleLine2: 'Lógica Descentralizada',
       description: 'MintLogic capacita a los sectores tradicionales para adoptar la infraestructura Web3. Soporte para emisión de stablecoins e integración de Agentes de IA.',
       primaryBtn: 'Explorar Soluciones',
       secondaryBtn: 'Documentación'
