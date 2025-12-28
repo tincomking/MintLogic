@@ -21,6 +21,7 @@ export interface TeamMember {
 }
 
 export interface ContentMap {
+  brandName: string;
   nav: {
     solutions: string;
     technology: string;

@@ -5,7 +5,7 @@ import { Language, ContentMap } from '../types';
 interface NavbarProps {
   currentLang: Language;
   setLang: (lang: Language) => void;
-  content: ContentMap['nav'];
+  content: ContentMap;
 }
 
 // MintLogic Logo Component - Single Leaf
@@ -32,9 +32,9 @@ const Navbar: React.FC<NavbarProps> = ({ currentLang, setLang, content }) => {
   }, []);
 
   const navLinks = [
-    { label: content.solutions, href: '#solutions' },
-    { label: content.technology, href: '#tech' },
-    { label: content.team, href: '#team' },
+    { label: content.nav.solutions, href: '#solutions' },
+    { label: content.nav.technology, href: '#tech' },
+    { label: content.nav.team, href: '#team' },
   ];
 
   return (
@@ -49,7 +49,9 @@ const Navbar: React.FC<NavbarProps> = ({ currentLang, setLang, content }) => {
         {/* Logo */}
         <div className="flex items-center gap-3 cursor-pointer group">
           <MintLogo className="w-10 h-10 transition-transform group-hover:scale-110 duration-300" />
-          <span className="text-white font-semibold text-xl tracking-tight group-hover:text-geek-mint transition-colors">MintLogic</span>
+          <span className="text-white font-semibold text-xl tracking-tight group-hover:text-geek-mint transition-colors">
+            {content.brandName}
+          </span>
         </div>
 
         {/* Desktop Nav */}
@@ -97,7 +99,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentLang, setLang, content }) => {
             </div>
 
             <button className="px-5 py-2.5 rounded-lg border border-white/10 bg-white/5 text-white text-sm font-medium hover:border-geek-mint/50 hover:text-geek-mint transition-all duration-300 glass-panel">
-                {content.contact}
+                {content.nav.contact}
             </button>
         </div>
 

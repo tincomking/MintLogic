@@ -2,6 +2,7 @@ import { ContentMap, Language, TeamMember } from './types';
 
 export const TRANSLATIONS: Record<Language, ContentMap> = {
   [Language.EN]: {
+    brandName: 'MintLogic',
     nav: { solutions: 'Solutions', technology: 'Technology', team: 'Team', contact: 'Contact' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
@@ -20,7 +21,26 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     },
     team: {
       title: 'Core Leadership',
-      members: [] // Populated below
+      members: [
+        {
+          name: "Zhiqiang Chen",
+          role: "CEO",
+          bio: "Veteran of NetEase, Tencent, Google, 360, and Alibaba. Expert in Ad & Recommendation systems and AI/ML. Former Co-founder & CTO of TRON; Former President of AntPool (Bitmain), the world's largest mining manufacturer.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
+        },
+        {
+          name: "Yu Zhu",
+          role: "COO",
+          bio: "Experience at CCB, SPDB, and HFT Investment. Regulatory expert for PBoC and CSRC; drafter of National Financial Standards. Global compliance leader across five continents with deep expertise in regional financial setup.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
+        },
+        {
+          name: "Feifei Dai",
+          role: "Product Director",
+          bio: "Former Deputy GM at Kunlun Wanwei Tiangong (AI commercialization 0-1). Former Deputy GM of Alibaba Cloud Finance. 20+ years in IT at Oracle, HP, and Teradata. Strategic advisor for Bowang Reinsurance.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
+        }
+      ]
     },
     footer: {
       copyright: '© 2024 MintLogic Ltd. All rights reserved.',
@@ -29,12 +49,13 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     }
   },
   [Language.ZH_CN]: {
+    brandName: 'MintLogic 智辑科技',
     nav: { solutions: '解决方案', technology: '核心技术', team: '团队', contact: '联系我们' },
     hero: {
-      badge: '香港 · MintLogic 智能合规',
+      badge: '香港 · MintLogic 智辑科技',
       titleLine1: '铸造信任',
       titleLine2: '于去中心化逻辑',
-      description: 'MintLogic 致力于协助传统行业进行 Web3 化改造。提供从稳定币发行、合规运营到跨境支付的全栈咨询，并将 AI Agent 深度嵌入垂直业务流。',
+      description: 'MintLogic 智辑科技致力于协助传统行业进行 Web3 化改造。提供从稳定币发行、合规运营到跨境支付的全栈咨询，并将 AI Agent 深度嵌入垂直业务流。',
       primaryBtn: '探索解决方案',
       secondaryBtn: '查看文档'
     },
@@ -47,21 +68,41 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     },
     team: {
       title: '核心领导团队',
-      members: []
+      members: [
+        {
+          name: "陈志强",
+          role: "CEO",
+          bio: "曾在网易、腾讯、谷歌、360、阿里巴巴工作，主导广告与推荐系统搭建。前波场联合创始人兼 CTO；前比特大陆蚂蚁矿池总裁，拥有全球顶级区块链基础设施运营经验。",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
+        },
+        {
+          name: "朱于",
+          role: "COO",
+          bio: "曾职于建行、浦发、汇添富。人行及证监会监管专家，国家金融标准委员会法规起草人。曾在北美、欧洲、亚洲等十多个国家和地区领导金融筹备，具丰富全球合规经验。",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
+        },
+        {
+          name: "戴飞飞",
+          role: "产品总监",
+          bio: "前昆仑万维天工商业化副总经理，推动 AI 大模型商业化从 0 到 1。曾任阿里云金融行业副总经理及 Oracle、HP 资深职位，深耕 IT 与互联网领域近 20 年。",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
+        }
+      ]
     },
     footer: {
-      copyright: '© 2024 MintLogic Ltd. 版权所有。',
+      copyright: '© 2024 MintLogic 智辑科技。版权所有。',
       privacy: '隐私政策',
       terms: '服务条款'
     }
   },
   [Language.ZH_TW]: {
+    brandName: 'MintLogic 智輯科技',
     nav: { solutions: '解決方案', technology: '核心技術', team: '團隊', contact: '聯繫我們' },
     hero: {
-      badge: '香港 · MintLogic 智能合規',
+      badge: '香港 · MintLogic 智輯科技',
       titleLine1: '鑄造信任',
       titleLine2: '於去中心化邏輯',
-      description: 'MintLogic 致力於協助傳統行業進行 Web3 化改造。提供從穩定幣發行、合規運營到跨境支付的全棧咨詢，並將 AI Agent 深度嵌入垂直業務流。',
+      description: 'MintLogic 智輯科技致力於協助傳統行業進行 Web3 化改造。提供從穩定幣發行、合規運營到跨境支付的全棧咨詢，並將 AI Agent 深度嵌入垂直業務流。',
       primaryBtn: '探索解決方案',
       secondaryBtn: '查看文檔'
     },
@@ -74,15 +115,35 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     },
     team: {
       title: '核心領導團隊',
-      members: []
+      members: [
+        {
+          name: "陳志強",
+          role: "CEO",
+          bio: "曾在網易、騰訊、谷歌、360、阿里巴巴工作，主導廣告與推薦系統搭建。前波場聯合創始人兼 CTO；前比特大陸螞蟻礦池總裁，擁有全球頂級區塊鏈基礎設施運營經驗。",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
+        },
+        {
+          name: "朱於",
+          role: "COO",
+          bio: "曾職於建行、浦發、匯添富。人行及證監會監管專家，國家金融標準委員會法規起草人。曾在北美、歐洲、亞洲等十多個國家和地區領導金融籌備，具豐富全球合規經驗。",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
+        },
+        {
+          name: "戴飛飛",
+          role: "產品總監",
+          bio: "前昆侖萬維天工商業化副總經理，推動 AI 大模型商業化從 0 到 1。曾任阿里云金融行業副總經理及 Oracle、HP 資深職位，深耕 IT 與互聯網領域近 20 年。",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
+        }
+      ]
     },
     footer: {
-      copyright: '© 2024 MintLogic Ltd. 版權所有。',
+      copyright: '© 2024 MintLogic 智輯科技。版權所有。',
       privacy: '隱私政策',
       terms: '服務條款'
     }
   },
   [Language.PT]: {
+    brandName: 'MintLogic',
     nav: { solutions: 'Soluções', technology: 'Tecnologia', team: 'Equipe', contact: 'Contato' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
@@ -100,8 +161,27 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
       aiFeatures: ['Automação de Fluxo', 'IA Vertical', 'Integração de Agentes', 'Otimização'],
     },
     team: {
-      title: 'Liderança',
-      members: []
+      title: 'Liderança Principal',
+      members: [
+        {
+          name: "Zhiqiang Chen",
+          role: "CEO",
+          bio: "Veterano da NetEase, Tencent, Google e Alibaba. Especialista em sistemas de recomendação. Ex-Cofundador e CTO da TRON; Ex-Presidente da AntPool (Bitmain), o maior fabricante de mineração do mundo.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
+        },
+        {
+          name: "Yu Zhu",
+          role: "COO",
+          bio: "Experiência no CCB, SPDB e HFT Investment. Especialista regulatório para o PBoC e CSRC. Redator de Normas Financeiras Nacionais e líder de conformidade global.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
+        },
+        {
+          name: "Feifei Dai",
+          role: "Diretora de Produto",
+          bio: "Ex-Diretora na Kunlun Wanwei Tiangong (IA 0-1). Ex-Diretora Adjunta da Alibaba Cloud Finance. Mais de 20 anos em TI na Oracle, HP e Teradata.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
+        }
+      ]
     },
     footer: {
       copyright: '© 2024 MintLogic Ltd.',
@@ -110,6 +190,7 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     }
   },
   [Language.DE]: {
+    brandName: 'MintLogic',
     nav: { solutions: 'Lösungen', technology: 'Technologie', team: 'Team', contact: 'Kontakt' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
@@ -128,7 +209,26 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     },
     team: {
       title: 'Führungsteam',
-      members: []
+      members: [
+        {
+          name: "Zhiqiang Chen",
+          role: "CEO",
+          bio: "Veteran von NetEase, Tencent, Google und Alibaba. Experte für Empfehlungssysteme. Ehemaliger Mitbegründer und CTO von TRON; Ehemaliger Präsident von AntPool (Bitmain).",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
+        },
+        {
+          name: "Yu Zhu",
+          role: "COO",
+          bio: "Erfahrung bei CCB, SPDB und HFT Investment. Regulierungsexperte für PBoC und CSRC. Verfasser nationaler Finanzstandards und globaler Compliance-Führer.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
+        },
+        {
+          name: "Feifei Dai",
+          role: "Produktdirektorin",
+          bio: "Ehem. stellv. GM bei Kunlun Wanwei Tiangong. Ehem. stellv. GM für Alibaba Cloud Finance. Über 20 Jahre IT-Erfahrung bei Oracle und HP.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
+        }
+      ]
     },
     footer: {
       copyright: '© 2024 MintLogic Ltd.',
@@ -137,6 +237,7 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     }
   },
   [Language.FR]: {
+    brandName: 'MintLogic',
     nav: { solutions: 'Solutions', technology: 'Technologie', team: 'Équipe', contact: 'Contact' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
@@ -155,7 +256,26 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     },
     team: {
       title: 'Direction',
-      members: []
+      members: [
+        {
+          name: "Zhiqiang Chen",
+          role: "CEO",
+          bio: "Vétéran de NetEase, Tencent, Google et Alibaba. Expert en systèmes de recommandation. Ex-Cofundador e CTO da TRON; Ex-Président d'AntPool (Bitmain).",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
+        },
+        {
+          name: "Yu Zhu",
+          role: "COO",
+          bio: "Expérience chez CCB, SPDB et HFT Investment. Expert en réglementation pour la PBoC et la CSRC. Rédacteur de normes financières et leader de la conformité mondiale.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
+        },
+        {
+          name: "Feifei Dai",
+          role: "Directrice Produit",
+          bio: "Ancienne DG adjointe chez Kunlun Wanwei Tiangong (IA 0-1). Ancienne DG adjointe chez Alibaba Cloud Finance. Plus de 20 ans en IT chez Oracle et HP.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
+        }
+      ]
     },
     footer: {
       copyright: '© 2024 MintLogic Ltd.',
@@ -164,6 +284,7 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     }
   },
   [Language.ES]: {
+    brandName: 'MintLogic',
     nav: { solutions: 'Soluciones', technology: 'Tecnología', team: 'Equipo', contact: 'Contacto' },
     hero: {
       badge: 'Hong Kong · MintLogic AI & Web3',
@@ -182,7 +303,26 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     },
     team: {
       title: 'Liderazgo',
-      members: []
+      members: [
+        {
+          name: "Zhiqiang Chen",
+          role: "CEO",
+          bio: "Veterano de NetEase, Tencent, Google y Alibaba. Experto en sistemas de recomendación. Ex-Cofundador e CTO da TRON; Ex-Presidente de AntPool (Bitmain).",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
+        },
+        {
+          name: "Yu Zhu",
+          role: "COO",
+          bio: "Experiencia en CCB, SPDB y HFT Investment. Experto regulador para el PBoC y la CSRC. Redactor de normas financieras nacionales y líder de cumplimiento.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
+        },
+        {
+          name: "Feifei Dai",
+          role: "Directora de Producto",
+          bio: "Antigua DG adjunta en Kunlun Wanwei Tiangong. Antigua DG adjunta en Alibaba Cloud Finance. Más de 20 años en TI en Oracle, HP e Teradata.",
+          imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
+        }
+      ]
     },
     footer: {
       copyright: '© 2024 MintLogic Ltd.',
@@ -191,36 +331,3 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
     }
   }
 };
-
-// Team Members data
-export const TEAM_MEMBERS: TeamMember[] = [
-  {
-    name: "Dr. Elena Zhang",
-    role: "Chief Scientist / AI Lead",
-    bio: "Ex-Google DeepMind researcher specializing in NLP and financial risk modeling. Ph.D. in Computer Science from HKUST.",
-    imageUrl: "https://picsum.photos/400/400?random=1"
-  },
-  {
-    name: "James Sterling",
-    role: "Head of Web3 Strategy",
-    bio: "15+ years in investment banking (Goldman Sachs) pivoted to DeFi protocol architecture and RWA tokenization.",
-    imageUrl: "https://picsum.photos/400/400?random=2"
-  },
-  {
-    name: "Sarah Chen, JD",
-    role: "Chief Legal Officer",
-    bio: "Expert in cross-border securities law and digital asset regulation. Bar admissions in NY, London, and Hong Kong.",
-    imageUrl: "https://picsum.photos/400/400?random=3"
-  },
-  {
-    name: "Michael Ross",
-    role: "Lead Actuary & Risk",
-    bio: "Fellow of the Society of Actuaries (FSA). Focuses on algorithmic stablecoin peg stability and insurance pools.",
-    imageUrl: "https://picsum.photos/400/400?random=4"
-  }
-];
-
-// Populate team into translations
-Object.keys(TRANSLATIONS).forEach(key => {
-    TRANSLATIONS[key as Language].team.members = TEAM_MEMBERS;
-});

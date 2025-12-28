@@ -5,11 +5,13 @@ import BentoGrid from './components/BentoGrid';
 import TeamSection from './components/TeamSection';
 import Footer from './components/Footer';
 import NeuralBackground from './components/NeuralBackground';
+import DocumentationModal from './components/DocumentationModal';
 import { TRANSLATIONS } from './constants';
 import { Language } from './types';
 
 const App: React.FC = () => {
   const [currentLang, setCurrentLang] = useState<Language>(Language.EN);
+  const [isDocsOpen, setIsDocsOpen] = useState(false);
   const content = TRANSLATIONS[currentLang];
 
   return (
@@ -22,12 +24,15 @@ const App: React.FC = () => {
       <Navbar 
         currentLang={currentLang} 
         setLang={setCurrentLang} 
-        content={content.nav}
+        content={content}
       />
 
       <main>
         {/* Hero Section */}
-        <Hero content={content.hero} />
+        <Hero 
+          content={content.hero} 
+          onOpenDocs={() => setIsDocsOpen(true)}
+        />
 
         {/* Feature Grid */}
         <BentoGrid content={content.bento} />
@@ -38,6 +43,13 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <Footer content={content.footer} />
+
+      {/* Overlays */}
+      <DocumentationModal 
+        isOpen={isDocsOpen} 
+        onClose={() => setIsDocsOpen(false)} 
+        lang={currentLang}
+      />
       
     </div>
   );
