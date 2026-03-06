@@ -23,21 +23,21 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
       title: 'Core Leadership',
       members: [
         {
-          name: "Zhiqiang Chen",
-          role: "CEO",
-          bio: "Veteran of NetEase, Tencent, Google, 360, and Alibaba. Expert in Ad & Recommendation systems and AI/ML. Former Co-founder & CTO of TRON; Former President of AntPool (Bitmain), the world's largest mining manufacturer.",
+          name: "Lucien Chen",
+          role: "Founder & CEO",
+          bio: "Former Co-founder & CTO of TRON, architect of the world's largest USDT circulation network. 10+ years in big data, AI, and cryptography. Founder of Volume Network, focused on decentralized storage and stablecoin incentive mechanisms, driving RWA asset securitization.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
         },
         {
-          name: "Yu Zhu",
-          role: "COO",
-          bio: "Experience at CCB, SPDB, and HFT Investment. Regulatory expert for PBoC and CSRC; drafter of National Financial Standards. Global compliance leader across five continents with deep expertise in regional financial setup.",
+          name: "Kevin Zhu",
+          role: "Co-founder & COO",
+          bio: "20+ years at top-3 global AUM commercial banks and China's largest investment fund. Regulatory expert for PBoC and CSRC; drafter of national financial regulations. Led financial institution setup across 10+ countries spanning North America, Europe, Asia, Oceania, and Africa.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
         },
         {
-          name: "Feifei Dai",
-          role: "Product Director",
-          bio: "Former Deputy GM at Kunlun Wanwei Tiangong (AI commercialization 0-1). Former Deputy GM of Alibaba Cloud Finance. 20+ years in IT at Oracle, HP, and Teradata. Strategic advisor for Bowang Reinsurance.",
+          name: "Tian Jia",
+          role: "Chief Architect",
+          bio: "Chief Scientist of China's first Bitcoin fund (Bitfundpe). Early Bitcoin adopter since 2011 and largest Chinese investor in Bitfinex. Led Zcash support and AI+blockchain innovation (Cortex Labs). Computational neuroscience background driving RWA fund algorithm design and stablecoin compliance models.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
         }
       ]
@@ -70,21 +70,21 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
       title: '核心领导团队',
       members: [
         {
-          name: "陈志强",
-          role: "CEO",
-          bio: "曾在网易、腾讯、谷歌、360、阿里巴巴工作，主导广告与推荐系统搭建。前波场联合创始人兼 CTO；前比特大陆蚂蚁矿池总裁，拥有全球顶级区块链基础设施运营经验。",
+          name: "Lucien Chen",
+          role: "创始人兼CEO",
+          bio: "波场（TRON）前联合创始人兼首任CTO，全球最大USDT流通网络底层架构缔造者。10年以上大数据、AI与密码学经验。现任Volume Network创始人，专注去中心化存储与稳定币激励机制，推动RWA资产安全证券化。",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
         },
         {
-          name: "朱于",
-          role: "COO",
-          bio: "曾职于建行、浦发、汇添富。人行及证监会监管专家，国家金融标准委员会法规起草人。曾在北美、欧洲、亚洲等十多个国家和地区领导金融筹备，具丰富全球合规经验。",
+          name: "Kevin Zhu",
+          role: "联合创始人",
+          bio: "二十多年全球资产管理规模前三的商业银行及中国最大投资基金工作经历。中国人民银行、证监会监管专家，国家金融监管法规起草人。曾在北美、欧洲、亚洲、大洋洲、非洲等十多个国家和地区领导金融机构筹备与展业。",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
         },
         {
-          name: "戴飞飞",
-          role: "产品总监",
-          bio: "前昆仑万维天工商业化副总经理，推动 AI 大模型商业化从 0 到 1。曾任阿里云金融行业副总经理及 Oracle、HP 资深职位，深耕 IT 与互联网领域近 20 年。",
+          name: "Tian Jia",
+          role: "首席架构师",
+          bio: "中国首个比特币基金（Bitfundpe）首席科学家。2011年比特币早期采用者，Bitfinex最大中国投资者。领导Zcash支持与AI+区块链创新（Cortex Labs智能合约）。计算神经科学背景驱动RWA基金算法设计与稳定币合规模型。",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
         }
       ]
@@ -117,21 +117,21 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
       title: '核心領導團隊',
       members: [
         {
-          name: "陳志強",
-          role: "CEO",
-          bio: "曾在網易、騰訊、谷歌、360、阿里巴巴工作，主導廣告與推薦系統搭建。前波場聯合創始人兼 CTO；前比特大陸螞蟻礦池總裁，擁有全球頂級區塊鏈基礎設施運營經驗。",
+          name: "Lucien Chen",
+          role: "創始人兼CEO",
+          bio: "波場（TRON）前聯合創始人兼首任CTO，全球最大USDT流通網絡底層架構締造者。10年以上大數據、AI與密碼學經驗。現任Volume Network創始人，專注去中心化存儲與穩定幣激勵機制，推動RWA資產安全證券化。",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
         },
         {
-          name: "朱於",
-          role: "COO",
-          bio: "曾職於建行、浦發、匯添富。人行及證監會監管專家，國家金融標準委員會法規起草人。曾在北美、歐洲、亞洲等十多個國家和地區領導金融籌備，具豐富全球合規經驗。",
+          name: "Kevin Zhu",
+          role: "聯合創始人",
+          bio: "二十多年全球資產管理規模前三的商業銀行及中國最大投資基金工作經歷。中國人民銀行、證監會監管專家，國家金融監管法規起草人。曾在北美、歐洲、亞洲、大洋洲、非洲等十多個國家和地區領導金融機構籌備與展業。",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
         },
         {
-          name: "戴飛飛",
-          role: "產品總監",
-          bio: "前昆侖萬維天工商業化副總經理，推動 AI 大模型商業化從 0 到 1。曾任阿里云金融行業副總經理及 Oracle、HP 資深職位，深耕 IT 與互聯網領域近 20 年。",
+          name: "Tian Jia",
+          role: "首席架構師",
+          bio: "中國首個比特幣基金（Bitfundpe）首席科學家。2011年比特幣早期採用者，Bitfinex最大中國投資者。領導Zcash支持與AI+區塊鏈創新（Cortex Labs智能合約）。計算神經科學背景驅動RWA基金算法設計與穩定幣合規模型。",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
         }
       ]
@@ -164,21 +164,21 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
       title: 'Liderança Principal',
       members: [
         {
-          name: "Zhiqiang Chen",
-          role: "CEO",
-          bio: "Veterano da NetEase, Tencent, Google e Alibaba. Especialista em sistemas de recomendação. Ex-Cofundador e CTO da TRON; Ex-Presidente da AntPool (Bitmain), o maior fabricante de mineração do mundo.",
+          name: "Lucien Chen",
+          role: "Fundador e CEO",
+          bio: "Ex-Cofundador e CTO da TRON, arquiteto da maior rede de circulação USDT do mundo. Mais de 10 anos em big data, IA e criptografia. Fundador da Volume Network, focado em armazenamento descentralizado e mecanismos de incentivo de stablecoins.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
         },
         {
-          name: "Yu Zhu",
-          role: "COO",
-          bio: "Experiência no CCB, SPDB e HFT Investment. Especialista regulatório para o PBoC e CSRC. Redator de Normas Financeiras Nacionais e líder de conformidade global.",
+          name: "Kevin Zhu",
+          role: "Cofundador e COO",
+          bio: "Mais de 20 anos nos três maiores bancos comerciais do mundo e no maior fundo de investimento da China. Especialista regulatório para PBoC e CSRC. Liderou operações financeiras em mais de 10 países na América, Europa, Ásia e África.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
         },
         {
-          name: "Feifei Dai",
-          role: "Diretora de Produto",
-          bio: "Ex-Diretora na Kunlun Wanwei Tiangong (IA 0-1). Ex-Diretora Adjunta da Alibaba Cloud Finance. Mais de 20 anos em TI na Oracle, HP e Teradata.",
+          name: "Tian Jia",
+          role: "Arquiteto-Chefe",
+          bio: "Cientista-Chefe do primeiro fundo Bitcoin da China (Bitfundpe). Adotante precoce de Bitcoin desde 2011. Liderou suporte ao Zcash e inovação AI+blockchain (Cortex Labs). Background em neurociência computacional aplicado ao design de algoritmos de fundos RWA.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
         }
       ]
@@ -211,21 +211,21 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
       title: 'Führungsteam',
       members: [
         {
-          name: "Zhiqiang Chen",
-          role: "CEO",
-          bio: "Veteran von NetEase, Tencent, Google und Alibaba. Experte für Empfehlungssysteme. Ehemaliger Mitbegründer und CTO von TRON; Ehemaliger Präsident von AntPool (Bitmain).",
+          name: "Lucien Chen",
+          role: "Gründer & CEO",
+          bio: "Ehemaliger Mitgründer und CTO von TRON, Architekt des weltweit größten USDT-Umlaufnetzwerks. Über 10 Jahre Erfahrung in Big Data, KI und Kryptographie. Gründer von Volume Network, fokussiert auf dezentrale Speicherung und Stablecoin-Anreizmechanismen.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
         },
         {
-          name: "Yu Zhu",
-          role: "COO",
-          bio: "Erfahrung bei CCB, SPDB und HFT Investment. Regulierungsexperte für PBoC und CSRC. Verfasser nationaler Finanzstandards und globaler Compliance-Führer.",
+          name: "Kevin Zhu",
+          role: "Mitgründer & COO",
+          bio: "Über 20 Jahre bei den drei größten Geschäftsbanken der Welt und Chinas größtem Investmentfonds. Regulierungsexperte für PBoC und CSRC. Leitete Finanzinstitutionen in über 10 Ländern in Nordamerika, Europa, Asien und Afrika.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
         },
         {
-          name: "Feifei Dai",
-          role: "Produktdirektorin",
-          bio: "Ehem. stellv. GM bei Kunlun Wanwei Tiangong. Ehem. stellv. GM für Alibaba Cloud Finance. Über 20 Jahre IT-Erfahrung bei Oracle und HP.",
+          name: "Tian Jia",
+          role: "Chefarchitekt",
+          bio: "Chefwissenschaftler des ersten Bitcoin-Fonds Chinas (Bitfundpe). Früher Bitcoin-Adopter seit 2011. Leitete Zcash-Unterstützung und KI+Blockchain-Innovation (Cortex Labs). Hintergrund in Computational Neuroscience für RWA-Fondsalgorithmen.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
         }
       ]
@@ -258,21 +258,21 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
       title: 'Direction',
       members: [
         {
-          name: "Zhiqiang Chen",
-          role: "CEO",
-          bio: "Vétéran de NetEase, Tencent, Google et Alibaba. Expert en systèmes de recommandation. Ex-Cofundador e CTO da TRON; Ex-Président d'AntPool (Bitmain).",
+          name: "Lucien Chen",
+          role: "Fondateur & CEO",
+          bio: "Ex-cofondateur et CTO de TRON, architecte du plus grand réseau de circulation USDT au monde. Plus de 10 ans en big data, IA et cryptographie. Fondateur de Volume Network, axé sur le stockage décentralisé et les mécanismes d'incitation aux stablecoins.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
         },
         {
-          name: "Yu Zhu",
-          role: "COO",
-          bio: "Expérience chez CCB, SPDB et HFT Investment. Expert en réglementation pour la PBoC et la CSRC. Rédacteur de normes financières et leader de la conformité mondiale.",
+          name: "Kevin Zhu",
+          role: "Cofondateur & COO",
+          bio: "Plus de 20 ans dans les trois plus grandes banques commerciales mondiales et le plus grand fonds d'investissement chinois. Expert réglementaire pour la PBoC et la CSRC. A dirigé des institutions financières dans plus de 10 pays en Amérique, Europe, Asie et Afrique.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
         },
         {
-          name: "Feifei Dai",
-          role: "Directrice Produit",
-          bio: "Ancienne DG adjointe chez Kunlun Wanwei Tiangong (IA 0-1). Ancienne DG adjointe chez Alibaba Cloud Finance. Plus de 20 ans en IT chez Oracle et HP.",
+          name: "Tian Jia",
+          role: "Architecte en Chef",
+          bio: "Scientifique en chef du premier fonds Bitcoin chinois (Bitfundpe). Adopteur précoce de Bitcoin depuis 2011. A dirigé le support Zcash et l'innovation IA+blockchain (Cortex Labs). Formation en neurosciences computationnelles appliquée à la conception d'algorithmes de fonds RWA.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
         }
       ]
@@ -305,21 +305,21 @@ export const TRANSLATIONS: Record<Language, ContentMap> = {
       title: 'Liderazgo',
       members: [
         {
-          name: "Zhiqiang Chen",
-          role: "CEO",
-          bio: "Veterano de NetEase, Tencent, Google y Alibaba. Experto en sistemas de recomendación. Ex-Cofundador e CTO da TRON; Ex-Presidente de AntPool (Bitmain).",
+          name: "Lucien Chen",
+          role: "Fundador y CEO",
+          bio: "Excofundador y CTO de TRON, arquitecto de la mayor red de circulación USDT del mundo. Más de 10 años en big data, IA y criptografía. Fundador de Volume Network, enfocado en almacenamiento descentralizado y mecanismos de incentivos de stablecoins.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Zhiqiang&backgroundColor=030303&body=variant01"
         },
         {
-          name: "Yu Zhu",
-          role: "COO",
-          bio: "Experiencia en CCB, SPDB y HFT Investment. Experto regulador para el PBoC y la CSRC. Redactor de normas financieras nacionales y líder de cumplimiento.",
+          name: "Kevin Zhu",
+          role: "Cofundador y COO",
+          bio: "Más de 20 años en los tres mayores bancos comerciales del mundo y el mayor fondo de inversión de China. Experto regulador para PBoC y CSRC. Dirigió instituciones financieras en más de 10 países de América, Europa, Asia y África.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=YuZhu&backgroundColor=030303&body=variant13"
         },
         {
-          name: "Feifei Dai",
-          role: "Directora de Producto",
-          bio: "Antigua DG adjunta en Kunlun Wanwei Tiangong. Antigua DG adjunta en Alibaba Cloud Finance. Más de 20 años en TI en Oracle, HP e Teradata.",
+          name: "Tian Jia",
+          role: "Arquitecto Jefe",
+          bio: "Científico jefe del primer fondo Bitcoin de China (Bitfundpe). Adoptante temprano de Bitcoin desde 2011. Lideró soporte de Zcash e innovación IA+blockchain (Cortex Labs). Formación en neurociencia computacional aplicada al diseño de algoritmos de fondos RWA.",
           imageUrl: "https://api.dicebear.com/9.x/notionists/svg?seed=Feifei&backgroundColor=030303&body=variant09"
         }
       ]
